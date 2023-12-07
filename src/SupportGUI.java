@@ -257,7 +257,7 @@ public class SupportGUI extends javax.swing.JFrame {
     
     /**
      * Event handler for the Main Menu button.
-     * @param evt ActionEvent triggered by the button.
+     * ActionEvent triggered by the button.
      */
     private void btnMainMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMainMenuActionPerformed
         // TODO add your handling code here:
@@ -271,7 +271,7 @@ public class SupportGUI extends javax.swing.JFrame {
     
     /**
      * Event handler for the Submit button.
-     * @param evt ActionEvent triggered by the button.
+     *  ActionEvent triggered by the button.
      */
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // Check if the button is disabled to avoid duplicate submissions
@@ -312,7 +312,7 @@ public class SupportGUI extends javax.swing.JFrame {
 
     /**
      * Main method to launch the application.
-     * @param args the command line arguments
+     * the command line arguments
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

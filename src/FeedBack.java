@@ -27,7 +27,7 @@ public class FeedBack {
     
     /**
      * Sets the rating given by the user.
-     * @param rating The user's rating.
+     * rating The user's rating.
      */
     public void setRating (int rating) {
         this.rating = rating; 
@@ -35,7 +35,7 @@ public class FeedBack {
     
     /**
      * Sets whether the user would use the app again.
-     * @param wouldUseAgain True if the user would use the app again, false otherwise.
+     * wouldUseAgain True if the user would use the app again, false otherwise.
      */
     public void setWouldUseAgain (boolean wouldUseAgain) {
         this.wouldUseAgain = wouldUseAgain; 
@@ -43,7 +43,7 @@ public class FeedBack {
     
     /**
      * Sets whether the user achieved their goals.
-     * @param achieveGoals True if the user achieved their goals, false otherwise.
+     * achieveGoals True if the user achieved their goals, false otherwise.
      */
     public void setAchievedGoals(boolean achieveGoals) {
         this.achievedGoals = achievedGoals;
@@ -51,7 +51,7 @@ public class FeedBack {
     
     /**
      * Sets additional feedback text provided by the user.
-     * @param feedbackText The feedback text.
+     * feedbackText The feedback text.
      */
     public void setFeedbackText(String feedbackText) {
         this.feedbackText = feedbackText;
@@ -62,7 +62,7 @@ public class FeedBack {
      * @return A message based on the feedback.
      */
      public String processFeedback() {
-if ((rating >= 4) && (wouldUseAgain || achievedGoals)) {
+if ((rating >= 5) && (wouldUseAgain || achievedGoals)) {
         // Positive feedback
         return "Thank you, " + user.getUserName() + " for your positive feedback! Your form has been sent to the team.";
     } else if (!(wouldUseAgain && achievedGoals)) {

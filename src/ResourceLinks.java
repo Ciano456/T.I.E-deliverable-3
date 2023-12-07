@@ -20,9 +20,9 @@ public class ResourceLinks {
      /**
      * Retrieves a list of online resources for a given category and subcategory.
      *
-     * @param category    The category for which resources are requested.
-     * @param subcategory The subcategory for which resources are requested.
-     * @return A list of online resources associated with the specified category and subcategory.
+     *  The category for which resources are requested.
+     * The subcategory for which resources are requested.
+     * return A list of online resources associated with the specified category and subcategory.
      */
      public static List<String> getOnlineResources(String category, String subcategory) {
         // Initialize an empty list to store the retrieved resources

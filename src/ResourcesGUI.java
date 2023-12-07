@@ -22,7 +22,7 @@ public class ResourcesGUI extends javax.swing.JFrame {
     
     /**
      * Creates new form ResourcesGUI.
-     * @param userGUI The UserGUI instance.
+     * userGUI The UserGUI instance.
      */
     public ResourcesGUI(UserGUI userGUI) {
         initComponents();
